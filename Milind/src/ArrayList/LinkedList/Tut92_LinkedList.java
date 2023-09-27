@@ -47,7 +47,7 @@ public class Tut92_LinkedList {
 
         System.out.println("////////////////////////////////////////////////////////////////////////////");
         //  Tut92's code from here
-        
+
         l1.addLast(5999);
         System.out.println(l1);
 
