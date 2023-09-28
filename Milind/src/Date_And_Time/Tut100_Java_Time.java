@@ -1,6 +1,7 @@
 package Date_And_Time;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 public class Tut100_Java_Time {
@@ -10,5 +11,9 @@ public class Tut100_Java_Time {
 
         LocalTime t = LocalTime.now();
         System.out.println(t);
+
+        LocalDateTime dt = LocalDateTime.now();
+        System.out.println(dt);
+
     }
 }
